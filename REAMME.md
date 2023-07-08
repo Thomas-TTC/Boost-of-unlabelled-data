@@ -1,5 +1,5 @@
 ## Project Overview
-This project addresses the report problem: Does unlabelled data improve Twitter sentiment classification? Given a tweet, the models predict whether the sentiment of the message is positive or negative. The effectiveness of various basic machine learning models is developed and analysed.
+This project addresses the report problem: Does unlabelled data improve Twitter sentiment classification? Given a tweet, the models utilise semi-supervised learning to predict whether the sentiment of the message is positive or negative. The effectiveness of unlabelled data to the performance of various basic machine learning models is developed and analysed.
 
 ## Data Set Structure
 
