@@ -1,5 +1,3 @@
-![image](https://github.com/Thomas-TTC/Boost-of-unlabelled-data/assets/69441941/42a24f14-6f69-448b-b12a-2a3e63f183a7)# Sentiment Classification in Tweets
-
 ## Project Overview
 This project addresses the report problem: Does unlabelled data improve Twitter sentiment classification? Given a tweet, the models predict whether the sentiment of the message is positive or negative. The effectiveness of various basic machine learning models is developed and analysed.
 
@@ -9,27 +7,27 @@ The data is not open to the public because of school policy.
 
 ## Models
 
-# K-nearest neighbour classifier
+### K-nearest neighbour classifier
 
 K-nearest neighbour classifier classifies an instance by finding the nearest k data points and conducting a weighted formula. 
 
-# Naïve-Bayes classifiers
+### Naïve-Bayes classifiers
 
 Naive-Bayes classifier has the naive assumption that features of an instance are conditionally independent given the class. It is a probabilistic generative model which calculates the join probability do classification.
 
-# Logistic regression classifier
+### Logistic regression classifier
 
 A logistic regression classifier optimizes the conditional probability directly since it is a probabilistic discriminative model. Logistic regression uses the regression approach to calculate the probability of belonging to one class, and it utilizes a decision boundary to classify.
 
-# Multi-layer perceptron classifier
+### Multi-layer perceptron classifier
 Multi-layer perceptron classifier constructs a neural network with different depths and widths. The depth of a neural network indicates the number of hidden layers it has, while the width indicates the number of neurons on each hidden layer. Multi-layer perceptron utilizes backpropagation to adjust the weight values among layers to make a better prediction in the next iteration.
 
 ## Feature Engineer
 
-# TFIDF
+### TFIDF
 The raw Tweet data (Schütze et al., 2008) was further feature engineered by the method term frequency-inverse document frequency pre-processing, which produced the data set that contains the 1000 highest TFIDF values based on the frequencies of the words.
 
-# Embedding vectors
+### Embedding vectors
 Also, with the pre-trained language model, Sentence Transformer (Reimers and Gurevych, 2019), the raw data after feature engineer produced the 384-dimensional embedding vectors, which can capture words with the same meaning, hence shorter the distance between similar data.
 
 ## Results
